@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('gym.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    font-family: 'Lora', serif;
+}
+.left{
+    /* border: 2px solid rgb(237, 115, 115); */
+    display: inline-block;
+    position: absolute;
+    left: 27px;
+    top: 30px;
+}
+.mid{
+    /* border: 2px solid rgb(154, 57, 57); */
+    display: block;
+    width: 50%;
+    margin: 23px auto;
+    
+}
+.right{
+    /* border: 2px solid rgb(3, 58, 58); */
+    display: inline-block;
+    position: absolute;
+    right: 75px;
+    top: 41px;
+}
+
+
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 15px;
+}
+.navbar li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.left img  {
+    width: 50px;
+    padding: 3px 18px;
+}
+.left div{
+    text-align: center;
+    font-size: 15px;
+}
+.btn{
+    background-color: black;
+    border: 2px solid gray;
+    color: white;
+    margin: 0px 8px;
+    padding: 7px 19px;
+    /* border: 2px solid rgb(65, 62, 62); */
+    border-radius: 7px;
+    font-size: 13px; 
+    cursor: pointer;
+    font-family: 'Lora', serif;
+}
+.btn:hover{
+    background-color: rgb(72, 72, 72);
+    color: black;
+}
+
+.container{
+    
+    margin: -20px 750px;
+    padding: 19px 30px;
+    width: 33%;
+    border-radius: 2px;
+}
+
+.container1{
+    /* border: 2px solid white; */
+    width: 28%;
+    margin: -89px -4px;
+    padding: 10px 20px;
+    
+}
+.grp input{
+    text-align: center;
+    display: block;
+    width: 58%;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Lora', serif;
+    background-color: #d3cece;
+    color: black;
+}
+.container1 h2{
+    text-align: center;
+    font-size: 28px;
+}
+.container1 button{
+    display: block;
+    margin: 15px auto;
+    width:55%;
+
+}
