@@ -9,6 +9,8 @@ body{
     color: white;
     font-family: 'Lora', serif;
 }
+
+/*GYM logo*/
 .left{
     /* border: 2px solid rgb(237, 115, 115); */
     display: inline-block;
@@ -16,13 +18,16 @@ body{
     left: 27px;
     top: 30px;
 }
+
+/*Nav bar*/
 .mid{
     /* border: 2px solid rgb(154, 57, 57); */
     display: block;
     width: 50%;
     margin: 23px auto;
-    
 }
+
+/* Log In button*/
 .right{
     /* border: 2px solid rgb(3, 58, 58); */
     display: inline-block;
