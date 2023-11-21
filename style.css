@@ -111,5 +111,17 @@ body{
     display: block;
     margin: 15px auto;
     width:55%;
+}
 
+footer{
+    width: 100%;
+    bottom: 0%;
+    position: absolute;
+    /* border: 2px solid white; */
+    margin: -180px auto;
+    background-color: black;
+}
+
+.row{
+    text-align: center;
 }
