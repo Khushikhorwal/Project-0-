@@ -25,6 +25,7 @@ body{
     display: block;
     width: 50%;
     margin: 23px auto;
+    padding: 11px 10px;
 }
 
 /* Log In button*/
@@ -33,28 +34,57 @@ body{
     display: inline-block;
     position: absolute;
     right: 75px;
-    top: 41px;
+    top: 50px;
 }
 
 
 .navbar{
-    display: inline-block;
-
+     list-style: none;
 }
+
 .navbar li{
     display: inline-block;
-    font-size: 15px;
+    position: relative;
 }
 .navbar li a{
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: white;
-    padding: 10px 10px;
+    padding: 6px 13px;
+    text-align: center;
+    font-size: 21px;
+    margin: 4px auto;
 }
 .navbar li a:hover{
     text-decoration: underline;
     color: grey;
 }
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.navbar li ul.dropdown li{
+    display: block;
+    background-color: rgb(52, 51, 51);
+}
+.navbar li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.navbar li:hover ul.dropdown{
+    display: block;
+}
+
+ul.dropdown li a:hover{
+    text-decoration: none;
+    color: rgb(139, 136, 136);
+}
+    
+
 .left img  {
     width: 50px;
     padding: 3px 18px;
